@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "Kidney-Classy"
 AUTHOR_USER_NAME = "awithaaa"
-SRC_REPO = "Kidney-Classy"
+SRC_REPO = "kidney_classy"
 AUTHOR_EMAIL = "avwithanage2006@gmail.com"
 
 setuptools.setup(
