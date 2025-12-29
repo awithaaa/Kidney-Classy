@@ -1,0 +1,118 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Virtual Environment (Conda)
+.env
+conda.yaml
+environment.yml
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+
+# ML Experiment tracking
+mlruns/
+mlflow/
+
+# DVC
+.dvc/
+.dvcignore
+dvc.lock
+.dvc/cache
+.dvc/plots
+.dvc/tmp
+
+# Data (large files, datasets)
+data/
+datasets/
+artifacts/
+artifact/
+raw_data/
+processed_data/
+*.csv
+*.json
+*.parquet
+*.h5
+*.pkl
+*.pickle
+*.zip
+*.tar.gz
+*.rar
+
+# Model files
+*.h5
+*.pth
+*.pt
+*.keras
+*.pb
+*.tflite
+*.onnx
+models/
+saved_models/
+checkpoints/
+
+# Weights and caches
+*.bin
+*.weights
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Cache and temp
+*.cache
+.cache/
+temp/
+tmp/
+
+# Build and dist
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Flask
+instance/
+.webassets-cache
+
+# Misc
+*.swp
+*.swo
+*~
+
+# Project specific (add if you have these)
+config.yaml
+params.yaml
+secrets.yaml
