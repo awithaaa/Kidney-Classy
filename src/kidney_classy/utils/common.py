@@ -4,13 +4,12 @@ import yaml
 from kidney_classy import logger
 import json
 import joblib
-from ensure import ensure_annotations
 from box import ConfigBox
 from pathlib import Path
 from typing import Any
 import base64
 
-@ensure_annotations
+
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
     """Reads yaml file and returns
     
@@ -38,7 +37,6 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
         raise e
     
 
-@ensure_annotations
 def create_directories(path_to_directories: list, verbose=True):
     """Create list of directories
 
@@ -52,7 +50,6 @@ def create_directories(path_to_directories: list, verbose=True):
             logger.info(f"Created directory at: {path}")
 
 
-@ensure_annotations
 def save_json(path: Path, data: dict):
     """Save json data
 
@@ -66,7 +63,6 @@ def save_json(path: Path, data: dict):
     logger.info(f"Json file saved at: {path}")
 
 
-@ensure_annotations
 def load_json(path: Path) -> ConfigBox:
     """Load json files data
 
@@ -83,7 +79,6 @@ def load_json(path: Path) -> ConfigBox:
     return ConfigBox(content)
 
 
-@ensure_annotations
 def save_bin(data: Any, path: Path):
     """Save binary file
 
@@ -95,7 +90,6 @@ def save_bin(data: Any, path: Path):
     logger.info(f"Binary file saved at: {path}")
 
 
-@ensure_annotations
 def load_bin(path: Path) -> Any:
     """Load binary data
 
@@ -110,7 +104,6 @@ def load_bin(path: Path) -> Any:
     return data
 
 
-@ensure_annotations
 def get_size(path: Path) -> str:
     """Get size in KB
 

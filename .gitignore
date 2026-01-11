@@ -116,3 +116,6 @@ instance/
 config.yaml
 params.yaml
 secrets.yaml
+
+
+artifacts/*
