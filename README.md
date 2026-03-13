@@ -27,7 +27,6 @@ The system leverages **TensorFlow/Keras** for building the deep learning model, 
 - **MLflow**
 - **DVC**
 - **NumPy / Pandas**
-- **OpenCV**
 
 ---
 
